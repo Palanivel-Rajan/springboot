@@ -1,0 +1,10 @@
+---
+applications:
+- name: customer-ws-app
+  memory: 1gb
+  instances: 1
+  path: ./build/libs/CustomerWS-0.0.1-SNAPSHOT.jar
+  services:
+    - mysql
+
+   
